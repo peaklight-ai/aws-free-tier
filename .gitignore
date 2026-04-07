@@ -1,0 +1,19 @@
+# AWS artifacts
+*.zip
+response.json
+trust-policy.json
+
+# OS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# OMC session data
+.omc/
