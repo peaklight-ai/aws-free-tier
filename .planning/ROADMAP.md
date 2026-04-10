@@ -1,20 +1,33 @@
 # ROADMAP: AWS Free Tier Learning -- v1.0 Core Services
 
 ## Milestone Goal
-Master the core serverless AWS services through CLI hands-on. By the end, be able to build and deploy a serverless app using Lambda + DynamoDB + S3 + messaging -- entirely from the terminal.
+Master the core serverless AWS services through hands-on practice in both the AWS Console GUI and CLI. By the end, be able to build and deploy a serverless app using Lambda + DynamoDB + S3 + messaging -- both from the browser and the terminal.
+
+## Per-Phase Deliverables
+Every phase produces:
+1. `README.md` -- full lesson walkthrough (existing)
+2. `NOTES.md` -- mental models, concepts, agent relevance (existing)
+3. `LABS.md` -- hands-on CLI labs (existing)
+4. `exercises/` -- quiz-style exercises (existing)
+5. **`PLAI_AWS_Lesson_XX_<Topic>.docx`** -- PLAI-branded tutorial with GUI + CLI side-by-side (NEW)
+
+The DOCX doc is the polished, printable deliverable that teaches each lesson in both the AWS Console and CLI, researched from official AWS docs.
 
 ---
 
 ## Phase 1: Billing Safety & IAM Foundations
 **Goal:** Never get surprise-billed. Understand AWS identity model.
 
-- Set up a billing alarm via CloudWatch CLI
-- Explore IAM: list users, roles, policies
-- Create a scoped IAM role for Lambda
+- Set up a billing alarm via CloudWatch (GUI + CLI)
+- Explore IAM: list users, roles, policies (GUI + CLI)
+- Create a scoped IAM role for Lambda (GUI + CLI)
 - Understand ARNs, policies, trust relationships
-- Check free tier usage from CLI
+- Check free tier usage (GUI + CLI)
 
-**Deliverable:** Billing alarm active, IAM role ready for Phase 2
+**Deliverables:**
+- Billing alarm active
+- IAM role ready for Phase 2
+- `PLAI_AWS_Lesson_01_Billing_and_IAM.docx` -- GUI + CLI walkthrough
 
 ---
 
