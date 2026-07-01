@@ -5,17 +5,20 @@ Learn AWS services through the CLI by doing -- not reading. Each phase covers on
 
 ## Context
 - **Who:** Chadi (PLAI founder), experienced developer, new to AWS CLI hands-on
-- **AWS Account:** 703091483538 (chadi-admin, IAM user)
-- **Default Region:** me-south-1 (Bahrain) -- some services may need us-east-1
-- **Approach:** GSD-phased, one service per phase, CLI-first (no console)
+- **AWS Account:** 703091483538 (chadi-admin, IAM user with console access)
+- **Default Region:** eu-central-1 (Frankfurt) -- switched from me-south-1 on 2026-04-21 (Bahrain degraded)
+- **Billing/IAM/CE region:** us-east-1 (required for Cost Explorer, billing alarms, Free Tier API)
+- **Approach:** GSD-phased, one service per phase, GUI + CLI side-by-side
 - **Repo:** peaklight-ai/aws-free-tier
 
 ## Learning Philosophy
 - Every command is run by Chadi in the terminal (not automated)
+- Each lab is walked through in BOTH the AWS Console (GUI) and CLI -- so Chadi builds visual recognition AND command-line muscle memory
 - Claude explains what each command does BEFORE Chadi runs it
 - Visual output is discussed -- what to look for, what matters
 - Each phase ends with a working artifact + cleanup knowledge
 - Billing safety is checked at every step
+- Progress is logged in `.planning/EXECUTION-LOG.md` (append-only, per-lab)
 
 ## Success Criteria
 - Can deploy a Lambda function from CLI and invoke it
@@ -38,7 +41,7 @@ Learn AWS services through the CLI by doing -- not reading. Each phase covers on
 
 | Phase | Service | Goal | Status |
 |-------|---------|------|--------|
-| 1 | Billing & IAM | Set up billing alarm, understand IAM basics | Planned |
+| 1 | Billing & IAM | Set up billing alarm, understand IAM basics | In Progress (Lab 1 complete) |
 | 2 | Lambda | Deploy, invoke, update, monitor a function | Planned |
 | 3 | DynamoDB | Create table, CRUD operations, query patterns | Planned |
 | 4 | S3 | Buckets, upload/download, policies, static hosting | Planned |
